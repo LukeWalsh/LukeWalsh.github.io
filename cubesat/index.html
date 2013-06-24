@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="mWF_fKTnpMHLFjNrKPZgyzM6-PJts7qvpamCGUAUktM" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/lw.css">
+        <title>Luke Walsh | Why So Plain?</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">
+                <a href="/">Luke Walsh / My internet home</a>
+            </h1>
+        <header>
+        <section role="main">
+            <div id="main" class="main index">
+                <header>
+                    <h1>Cubesat software for the Air Force Institute of Technology (AFIT)</h1>
+                    <p class="attribution">Summer 2012</p>
+                    <br>
+                    <p class="attribution">C++, MATLAB</p>
+                </header>
+                <p>
+                    I was a member of a team of interns developing all aspects of a generalized satellite design including mechanical, electrical, computer hardware, embedded software, and groundstation control software components. I developed a set of libraries that interfaced with the chip components selected to perform various functions on the satellite (ADC's, DAC's, radios, thermocouples, GPS, voltage monitors, etc). I also assisted in modifying a MATLAB prototype groundstation interface to command the satellite. At the end of the project we delivered a working prototype into which various payloads were integrated to perform mission specific functions.
+                </p>
+                <p>
+                    The physical form factor of the satellite is a "6U" CubeSat which is a standard size that can be launched from NASA and SpaceX rockets, as well as China and other national space programs. The only difference between the prototype we provided and a space ready version is the onboard radio, and quality rating of the materials used.
+                </p>
+                <p>
+                    A major design problem we encountered was the use of the radio. By the time I began to write software for the radio it quickly became apparent that it was an unwise decision to run the radio through a hardware multiplexer. In order to control any other components connected to the multiplexer we had to go blind to all ground communications. After meeting with a satellite design team from JPL we learned that they had made a similar mistake in their first design many years ago, and suggested that for the next iteration we added a dedicated microcontroller to handle the radio. That way the radio's microcontroller can buffer all communication, and when the multiplexer try's to pull new information from the ground it is actually reading from safe data passed from the dedicated controller. This is a large sacrifice in terms of power consumption, but well worth it because of how critical communication is.
+                </p>
+                <p>
+                    Unfortunately the source code and design documents for this project are owned by the Air Force, but below you will find some pictures from the project.
+                </p>
+                <h2>
+                    My partner and I's workstation
+                </h2>
+                <img title="AFIT Workstation" src="/img/1.jpg">
+                <h2>
+                    Command and Data Handling Module
+                </h2>
+                <h3>
+                    Without mounting frame
+                </h3>
+                <img title="C&DH board" src="/img/2.jpg">
+                <img title="C&DH board" src="/img/3.jpg">
+            </div>
+        </section>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-group">
+                    projects
+                    <ul class="nav-list-sub">
+                        <li>
+                            <a href="test">Test nav link</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-group">
+                    meta 
+                    <ul class="nav-list-sub">
+                        <li>
+                            <a href="/whysoplain">why so plain?</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
