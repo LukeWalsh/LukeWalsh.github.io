@@ -4,10 +4,13 @@
                     projects
                     <ul class="nav-list-sub">
                         <li>
-                            <a href="/cubesat">CubeSat Software</a>
+                            <a href="/moments">Moments</a>
                         </li>
                         <li>
-                            <a href="/moments">Moments</a>
+                            <a href="/groundstation">Satellite Groundstation</a>
+                        <li>
+                        <li>
+                            <a href="/cubesat">CubeSat Software</a>
                         </li>
                     </ul>
                 </li>
