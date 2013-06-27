@@ -1,0 +1,20 @@
+<section role="main">
+    <div id="main" class="main index">
+        <header>
+            <h1>Moments app for iOS</h1>
+            <p class="attribution">Spring 2013 | Objective-C</p>
+        </header>
+        <p>
+        The prototype for moments was created at <a title="The largest student hackathon, ever" href="http://mhacks.org">MHacks</a>, the largest student hackathon ever. We developed prototypes for an android and iOS version of the app, as well as a <a title="Get moments!" href="http://getmoments.co">product launch page</a> in 36 hours. Out of hundreds of teams (800+ students) we were one of 10 teams chosen to give an elevator pitch at the end of our competition.
+        </p>
+        <p>
+            The premise for the app is simple yet elegant. A user takes a photo at a location, and then that photo is "attached" to that point in space. Anyone else using the app who wanders across that location will receive a push notification, and experience the moment someone left behind. This allows capturing and sharing significant moments in a way that creates a deeply personal connection with a complete stranger.
+        </p>
+        <p>
+            Members of the team have gone on to pursue other projects with more pressing time deadlines since the hackathon, but we plan to polish and release to the app store in the future. You can sign up to be notified when we launch on our <a title="Seriously, get moments!" href="http://getmoments.co">product launch page</a>. You can also read a feature story about us that was published in the <a title="Purdue Exponent Moments App Feature" href="http://www.purdueexponent.org/features/article_e8b5a637-d77c-5493-829d-a03f3f90e9ba.html">Purdue Exponent</a>.
+        </p>
+        <div>
+            <img title="Staged group photo" src="/img/moments/1.jpg"> 
+        </div>
+    </div>
+</section>

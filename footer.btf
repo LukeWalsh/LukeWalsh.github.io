@@ -1,0 +1,25 @@
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-group">
+                    projects
+                    <ul class="nav-list-sub">
+                        <li>
+                            <a href="/cubesat">CubeSat Software</a>
+                        </li>
+                        <li>
+                            <a href="/moments">Moments</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-group">
+                    meta 
+                    <ul class="nav-list-sub">
+                        <li>
+                            <a href="/whysoplain">why so plain?</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
