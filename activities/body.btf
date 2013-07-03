@@ -1,0 +1,10 @@
+<section role="main">
+    <div id="main" class="main index">
+        <header>
+            <h1>Activities I enjoy</h1>
+        </header>
+        <p>
+           Things I like here 
+        </p>
+    </div>
+</section>
