@@ -1,7 +1,7 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-group">
-                    about mes
+                    about me
                     <ul class="nav-list-sub">
                         <li>
                             <a href="/activities">Activities</a>

@@ -3,8 +3,46 @@
         <header>
             <h1>Activities I enjoy</h1>
         </header>
+        <h2>
+            Programming
+        </h2>
         <p>
-           Things I like here 
+            I enjoy programming because it allows me to imagine, design, and build things faster than any other field. I learned to program my freshman year of college, and have been self teaching myself since then. I think classrooms have a place, but I tend to learn best by building things on my own.
         </p>
+        <h2>
+            Camping
+        </h2>
+        <p>
+            I grew up a Boy Scout, and am proud to call myself an Eagle Scout. The outdoors has always been where I feel the most calm, and I enjoy all sorts of activities outside.
+        </p>
+        <img title="Hiking in colorado" class="img_p" src="/img/activities/1.jpg">
+        <h2>
+            Skiing
+        </h2>
+        <p>
+            I fell in love with skiing the very first time I stepped onto a mountain in the winter. Something about the snowy trees never ceases to make me feel like I have found paradise.
+        </p>
+        <img title="Skiing in colorado" class="img_p" src="/img/activities/2.jpg">
+        <h2>
+            Longboarding
+        </h2>
+        <p>
+            Growing up Longboarding was always a great way to cheat death at 45mph, one hill at a time. Nowadays it's still my favorite method of transportation between classes, and on urban sidewalks. 
+        </p>
+        <img title="Longboarding in garage" class="img_p" src="/img/activities/3.jpg">
+        <h2>
+            Ms. Pac-Man 
+        </h2>
+        <p>
+            The only video game I play consistently, I have to try out any machine I come across. I wont bother posting my score, but I definitely get my moneys worth on a 25 cent run.
+        </p>
+        <img title="Playing some pac" class="img_p" src="/img/activities/4.jpg">
+        <h2>
+            Rock Climbing
+        </h2>
+        <p>
+            I like climbing beause it's like a logic puzzle for your body. In school I climb regularly at the Purdue rec center bouldering wall.
+        </p>
+        <img title="Climbing the edge of time" class="img_p" src="/img/activities/5.jpg">
     </div>
 </section>
