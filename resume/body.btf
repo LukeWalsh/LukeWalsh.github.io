@@ -1,0 +1,14 @@
+<section role="main">
+    <div id="main" class="main index">
+        <header>
+            <h1>My Resume</h1>
+        </header>
+        <p>
+            You can probably learn more about me just by poking around this site, but if you want a concise collection of my qualifications you can download <a href="/f/resume.pdf" title="Luke Walsh's resume">my resume in pdf format</a>.
+        </p>
+        <p>
+            Alternatively you can view it below:
+        </p>
+        <iframe src="/f/resume.pdf"></iframe>
+    </div>
+</section>
