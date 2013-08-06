@@ -9,8 +9,8 @@ $(function () {
 
         // do a random walk
         while (data.length < totalPoints) {
-            var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
+            //var prev = data.length > 0 ? data[data.length - 1] : 50;
+            var y = prev + Math.random() * 10 - 5;
             var y = document.getElementById("BattSoC").innerHTML;
             if (y < 0)
                 y = 0;
