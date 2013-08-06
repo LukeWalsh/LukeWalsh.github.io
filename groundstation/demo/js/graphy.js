@@ -11,7 +11,7 @@ $(function () {
         while (data.length < totalPoints) {
             //var prev = data.length > 0 ? data[data.length - 1] : 50;
             var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("BattSoC").innerHTML;
+            //var y = document.getElementById("BattSoC").innerHTML;
             if (y < 0)
                 y = 0;
             if (y > 100)
@@ -62,8 +62,8 @@ $(function () {
 
         // do a random walk
         while (data.length < totalPoints) {
-            var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
+            //var prev = data.length > 0 ? data[data.length - 1] : 50;
+            var y = prev + Math.random() * 10 - 5;
             var y = 2.5; //document.getElementById("POWER_IN").innerHTML;
             if (y < 0)
                 y = 0;
@@ -117,8 +117,7 @@ $(function () {
 
         // do a random walk
         while (data.length < totalPoints) {
-            var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
+            var y = prev + Math.random() * 10 - 5;
             var y = 1.2; //document.getElementById("POWER_OUT").innerHTML;
             data.push(y);
         }
@@ -168,8 +167,8 @@ $(function () {
         // do a random walk
         while (data.length < totalPoints) {
             var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("USB_CURRENT").innerHTML;
+            var y = prev + Math.random() * 10 - 5;
+            //var y = document.getElementById("USB_CURRENT").innerHTML;
             data.push(y);
         }
 
@@ -217,8 +216,8 @@ $(function () {
         // do a random walk
         while (data.length < totalPoints) {
             var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("AUX_PWR_CURRENT").innerHTML;
+            var y = prev + Math.random() * 10 - 5;
+            //var y = document.getElementById("AUX_PWR_CURRENT").innerHTML;
             data.push(y);
         }
 
@@ -266,8 +265,8 @@ $(function () {
         // do a random walk
         while (data.length < totalPoints) {
             var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("CHARGE_CURRENT").innerHTML;
+            var y = prev + Math.random() * 10 - 5;
+            //var y = document.getElementById("CHARGE_CURRENT").innerHTML;
             data.push(y);
         }
 
@@ -315,8 +314,8 @@ $(function () {
         // do a random walk
         while (data.length < totalPoints) {
             var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("SYSTEM_CURRENT").innerHTML;
+            var y = prev + Math.random() * 10 - 5;
+            //var y = document.getElementById("SYSTEM_CURRENT").innerHTML;
             data.push(y);
         }
 
@@ -364,8 +363,8 @@ $(function () {
         // do a random walk
         while (data.length < totalPoints) {
             var prev = data.length > 0 ? data[data.length - 1] : 50;
-            //var y = prev + Math.random() * 10 - 5;
-            var y = document.getElementById("BattV").innerHTML;
+            var y = prev + Math.random() * 10 - 5;
+            //var y = document.getElementById("BattV").innerHTML;
             data.push(y);
         }
 
