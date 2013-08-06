@@ -1,0 +1,17 @@
+<section role="main">
+    <div id="main" class="main index">
+        <header>
+            <h1>Course Butler</h1>
+            <p class="attribution">Summer 2013 - HTML/CSS, Javascript (jQuery), MongoDB</p>
+        </header>
+        <p>
+            Course Butler is a service I am developing. It will notify users via text message when a seat opens up in a class they have subscriped to.
+        </p>
+        <p>
+            Course Butler is my first time using <a href="http://meteor.com" title="The future of web development">meteor</a>. Meteor allows functional reactive programming in a Model View-Model View (MVVM) paradigm. This is incredibly powerful, and I truly believe that this is the direction the web is heading.
+        </p>
+        <p>
+            The app will be live on <a href="http://coursebutler.com" title="Purdue class notifier">coursebutler.com</a> as soon as I am finished developing it.
+        </p>
+    </div>
+</section>
