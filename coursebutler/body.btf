@@ -2,7 +2,7 @@
     <div id="main" class="main index">
         <header>
             <h1>Course Butler</h1>
-            <p class="attribution">Summer 2013 - HTML/CSS, Javascript (jQuery), MongoDB</p>
+            <p class="attribution">Summer 2013 - Meteor, Node.js, HTML/CSS, Javascript (jQuery), MongoDB</p>
         </header>
         <p>
             Course Butler is a service I am developing. It will notify users via text message when a seat opens up in a class they have subscriped to.
