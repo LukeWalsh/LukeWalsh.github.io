@@ -10,7 +10,9 @@
 ## Update the parent directory
 rm index.html 2>/dev/null
 touch index.html
-cat header.btf >> index.html
+cat general-head.btf >> index.html
+cat specific-head.btf >> index.html
+cat content-header.btf >> index.html
 cat body.btf >> index.html
 cat footer.btf >> index.html
 
@@ -25,15 +27,21 @@ do
         cd $item    # Enter
         rm index.html 2>/dev/null
         touch index.html 
+        # Put in the general header
+        cat ../general-head.btf >> index.html
+
         # Use a local headaer if there is one
-        if [[ -e header.btf ]]
+        if [[ -e specific-head.btf ]]
         then
-            cat header.btf >> index.html
-        else
-            cat ../header.btf >> index.html 
+            cat specific-head.btf >> index.html
         fi
+
+        # Put in the content header
+        cat ../content-header.btf >> index.html
+
         # Use the local body
         cat body.btf >> index.html
+
         # Use a local footer if there is one
         if [[ -e footer.btf ]]
         then
