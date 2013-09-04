@@ -1577,4 +1577,7 @@ nav {
     display: block;
 }
 }
+.centered-div {
+    text-align: center;
+}
 
