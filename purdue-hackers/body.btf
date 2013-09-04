@@ -1,10 +1,12 @@
 <section role="main">
     <div id="main" class="main index">
-        <div class="centered-div">
-            <a href="http://www.catb.org/hacker-emblem/faqs.html">
-                <img title="The glider, a hacker emblem" class="img_p" src="/img/purdue-hackers/1.png">
-            </a>
-        </div>
+        <p>
+            <div class="centered-div">
+                <a href="http://www.catb.org/hacker-emblem/faqs.html">
+                    <img title="The glider, a hacker emblem" class="img_p" src="/img/purdue-hackers/1.png">
+                </a>
+            </div>
+        </p>
         <header>
             <h1>Purdue Hackers</h1>
             <p class="attribution">Founding President</p>
