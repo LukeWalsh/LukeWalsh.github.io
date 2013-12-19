@@ -1,0 +1,30 @@
+President:
+    Secretary: Jason Ringer
+    Serjeant-at-Arms: Bobby Egan
+    Communications & PR Director: Ryan Gandy
+
+Executive VP:
+    Risk Management: Devon Fetters
+    Scholarship: Everett "Rett" Berry
+    University Relations: Connor Meyer
+
+VP Membership:
+    Fraternal Educator: Zack Campbell
+    Recruitment: Keith Stroup
+    Ritual: Steve Mussmann
+
+VP Programs:
+    Social: Quinton Nannet
+    Brotherhood: Matt "Moose" Hendrickson
+    Philanthropy: Dean Anderson
+    Intramurals: Corey Seffernick
+    Community Service: Jonathan "JP" Pasyk
+    Alumni Relations: Matt Valet
+    Parent Relations: Alex Erbach
+    Special Olympics: Justin Uhlman
+    White Rose: Hayden Purpur
+
+VP Finance:
+    Treasurer: Jai Agerwal
+    External Fundraising: Jordan Williams
+    Internal Fundraising: Pat Doyle
