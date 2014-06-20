@@ -4,8 +4,8 @@
             <h1>My Resume</h1>
         </header>
         <p>
-            You can probably learn more about me just by poking around this site, but if you want a concise collection of my qualifications you can download my <a href="/f/resume.pdf" title="Luke Walsh's resume" download>resume.pdf</a>
+            You can probably learn more about me just by poking around this site, but if you want a concise collection of my qualifications you can download my <a href="/f/luke-walsh.pdf" title="Luke Walsh's resume" download>resume.pdf</a>
         </p>
-        <iframe src="/f/resume.pdf" style="width: 648px; height: 838px;"></iframe>
+        <iframe src="/f/luke-walsh.pdf" style="width: 648px; height: 838px;"></iframe>
     </div>
 </section>
