@@ -1,0 +1,20 @@
+<section role="main">
+    <div id="main" class="main index">
+        <header>
+            <h1>Satellite Web-Groundstation for Oak Ridge Institute of Higher Education (ORISE)</h1>
+            <p class="attribution">2012-2013 School Year - HTML/CSS, Javascript (jQuery), PHP, MySQL</p>
+        </header>
+        <p>
+            After my internship in the summer of 2012 another intern and I were given the opportunity to continue with distance/part-time positions throughout the school year. During this time we developed a system to control CubeSat's from the web. It was designed to be usable on a tablet, phone, or computer. It also needed to be easily extensible by people who may not be familiar with web programming concepts.
+        </p>
+        <p>
+           We opted for a single page application that was updated asynchronously because it is often important to visualize large amounts of data at a time. In the backend the server is written in PHP. It manages handling a communication link with the satellite, and updating a MySQL database to store data so that it can be reviewed later. The server also accepts browser requests for the current readings on the satellite and responds accordingly.
+        </p>
+        <p>
+            The frontend is built on twitter bootstrap, because it provides a very structured way to write HTML which will allow non programmers to insert components into the framework if needed. Live plotting was incorporated using <a href="http://flotcharts.org" title="Javascript plotting">Flot Charts</a>.
+        </p>
+        <p>
+            Unfotunately the backend is closed, and we were asked not to publish any documention for both the frontend and backend. However you can check out a live demo of the interface running without a data link (and consequently no charts) <a href="/groundstation/demo">here</a>.
+        </p>
+    </div>
+</section>
