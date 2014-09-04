@@ -7,6 +7,16 @@ if has("autocmd")
       \| exe "normal! g'\"" | endif
 endif
 
+filetype off " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+Bundle 'wincent/Command-T'
+
 " Easy jumping far left and far right
 map H ^
 map L $
@@ -66,3 +76,6 @@ function! NumberToggle()
 endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
+
+" Use jj to exit editing mode since you never type double j's
+inoremap jj <ESC>
